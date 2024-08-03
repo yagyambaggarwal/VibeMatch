@@ -1,0 +1,145 @@
+
+#users h3 {
+    color: #2b586c;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* #users h1 {
+    
+} */
+.specialfont{
+    font-family: "Nosifer", system-ui;
+    font-weight: 600;
+    text-align: center;
+    font-style:oblique;
+}
+.groom_bride {
+    border-radius: 40%;
+    height: 148px;
+    width: 148px;
+    margin: 3vh;
+    box-shadow: 5px -5px wheat;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile {
+    width: 250px;
+    border-radius: 30%;
+    border: 4px solid wheat;
+    height: 250px;
+}
+
+#container2 {
+    display: flex;
+    margin-bottom: 3vh;
+}
+
+.groom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.groom input {
+    width: 148px;
+}
+
+button {
+    width: fit-content;
+    border-radius: 45%;
+}
+@media(max-width: 450px){
+    #container1{
+        display: none;
+    }
+}
+#container1alternate1, #container1alternate2, #container1alternate3, #container2alternate, #container1alternate4{
+    display: none;
+}
+
+#hero{
+    margin-top: 4vh;
+    text-align: center;
+    display: block;
+}
+#hero h2{
+    font-family: "Nosifer", sans-serif;
+    color: black;
+    font-size: 2rem;
+}
+#hero a{
+    font-family: "Creepster", system-ui;
+    font-size: 1.5rem;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @media(max-width: 900px){
+    #carouselExampleControlsNoTouching{
+        display: none;
+      }
+  }
+  @media(min-width: 900px){
+    #carouselalternate{
+        display: none;
+      }
+  }
+.testbutton:hover{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: none;
+animation: test 1s ease-in-out 0s normal;
+box-shadow: 2px 2px grey;
+transform:skewX(30deg);
+
+}
+@keyframes test{
+    0%{
+        
+        color: antiquewhite;
+        background-color: #ff4c68;
+        font-size: large;
+        font-weight: bold;
+    }
+    50%{
+        color: #ef8172;
+        /* transform: translateY(2px); */
+        transform: scale(1.2);
+        background-color: azure;
+    }
+    100%{
+        color: #ff4c68;
+        background-color:bisque;
+        font-size: large;
+        font-weight: bold;
+    }
+}
+.groom_bride_btn{
+    border-radius: 20px;
+    font-family: "creepster";
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgba(8, 1, 8, 0.747);
+}
+.specialfont2{
+    font-family: "Metal Mania", system-ui;
+    text-align: center;
+    text-decoration: wavy;
+    text-decoration-line: underline;
+}
+.specialfont3{
+    font-family: "Merriweather", serif;
+    text-decoration: wavy;
+    text-decoration-line: underline;
+}
